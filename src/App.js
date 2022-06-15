@@ -1,12 +1,18 @@
 import './App.css';
-
+import Header from "./components/Header/Header"
+import Nav from "./components/nav/Nav"
+import About from "./components/about/About"
+import Projects from "./components/projects/Projects"
+import Contact from "./components/contact/Contact"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-     
-      </header>
-    </div>
+    <>
+      <Nav />
+      <Header />
+      <About/>
+      <Projects/>
+      <Contact/>
+    </>
   );
 }
 

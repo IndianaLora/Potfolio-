@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --background-color: rgb(153, 91, 153);
+  --background-color-secondary: purple;
+  --primary-color: rgb(229, 124, 124);
+  --primary-color-secondary: rgb(240, 184, 184);
+  --dark: rgb(173, 7, 46);
+  --light: rgb(240, 197, 207);
+
+  --container--large: 75%;
+  --conatiner-medium: 86%;
+  --container-small: 90;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "EB Garamond", serif;
+  background-color: var(--background-color);
+  color: var(--light);
+  background-image: url("./assest/programmer-bg.jpg");
+  background-repeat: none;
+  background-position: auto;
+  background-size: 50%;
+  background-clip: border-box;
+}
