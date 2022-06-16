@@ -12,13 +12,13 @@
 :root {
   --background-color: rgb(153, 91, 153);
   --background-color-secondary: purple;
-  --primary-color: rgb(229, 124, 124);
+  --primary-color: rgb(8, 8, 8);
   --primary-color-secondary: rgb(240, 184, 184);
   --dark: rgb(173, 7, 46);
   --light: rgb(240, 197, 207);
 
   --container--large: 75%;
-  --conatiner-medium: 86%;
+  --container-medium: 86%;
   --container-small: 90;
 }
 html {
@@ -28,9 +28,92 @@ body {
   font-family: "EB Garamond", serif;
   background-color: var(--background-color);
   color: var(--light);
-  background-image: url("./assest/programmer-bg.jpg");
+  /* background-image: url("./assest/programmer-bg.jpg");
   background-repeat: none;
   background-position: auto;
-  background-size: 50%;
-  background-clip: border-box;
+  background-size: 95%;
+  background-clip: border-box; */
+}
+.container {
+  width: var(--container--large);
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.5rem;
+}
+section {
+  margin-top: 8rem;
+}
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--light);
+}
+section > h2 {
+  color: var(--primary-color);
+}
+.text-light {
+  color: var(--light);
+}
+a {
+  color: var(--light);
+  transition: all 400ms ease;
+}
+
+a:hover {
+  color: var(--light);
+}
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--primary-color);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  transition: all 400ms ease;
+}
+
+.btn:hover {
+  background: var(--light);
+  color: var(--background-color);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Tablet Media Query*/
+
+@media screen and(max-width:1024px) {
+  .container {
+    width: var(--container-medium);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* Phones Media Query*/
+@media screen and(max-width:1024px) {
+  .container {
+    width: var(--container-small);
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }

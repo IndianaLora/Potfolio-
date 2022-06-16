@@ -9,9 +9,9 @@ function App() {
     <>
       <Nav />
       <Header />
-      <About/>
-      <Projects/>
-      <Contact/>
+      <About />
+      <Projects />
+      <Contact />
     </>
   );
 }
