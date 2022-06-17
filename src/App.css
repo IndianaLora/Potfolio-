@@ -36,7 +36,13 @@ body {
 }
 .container {
   width: var(--container--large);
-  margin: 0 auto;
+  margin: 9.5%;
+  text-align: left;
+}
+.container h1,
+h2,
+h3 {
+  text-align: left;
 }
 h1,
 h2,
@@ -74,6 +80,7 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--primary-color);
+  background: var(--light);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -85,6 +92,7 @@ a:hover {
   background: var(--light);
   color: var(--background-color);
   border-color: transparent;
+  box-shadow: 2%;
 }
 
 .btn-primary {
@@ -102,6 +110,7 @@ img {
 @media screen and(max-width:1024px) {
   .container {
     width: var(--container-medium);
+    margin-top: 0%;
   }
   section {
     margin-top: 6rem;
