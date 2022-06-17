@@ -1,10 +1,10 @@
 import React from 'react'
-import "./header.css"
+import "./home.css"
 import Info from './Info'
 function Header() {
   return (
     <header>
-      <div class="container">
+      <div class="container" id="home">
         <div class="container header-container">
           <h3>Hello I'm</h3>
           <h1>Indiana Lora</h1>

@@ -2,7 +2,7 @@ import React from 'react'
 import "./projects.css"
 function Projects() {
   return (
-    <div>Projects</div>
+    <div id="projects">Projects</div>
   )
 }
 
