@@ -3,6 +3,7 @@
   height: 70px;
   background-color: var(--background-color);
   position: fixed;
+  z-index: 2;
   top: 0%;
   overflow: hidden;
 }
