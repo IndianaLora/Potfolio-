@@ -14,7 +14,6 @@ function About() {
             <img src={Me} alt='Myself' />
           </div>
         </div>
-
         <div className='about-content'>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
