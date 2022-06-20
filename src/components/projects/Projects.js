@@ -8,38 +8,38 @@ function Projects() {
   //make sure its responsive
   return (
     <section className="projects" id="projects">
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <div className="container portfolio-container">
+
         <div className="portfolio-project">
           <a>
-            <h3 className="project-head">Resin Page</h3>{" "}
+            <h2 className="project-head">Resin Page</h2>{" "}
             <img src={ResinPage} alt="Resin Page" className="portfoio-img" />
-            <p> Lorem</p>
+            <p> Click the image to test the project</p>
           </a>
         </div>
         <div className="portfolio-project">
           <a>
-            <h3 className="project-head">Notebook</h3>{" "}
+            <h2 className="project-head">Notebook</h2>{" "}
             <img src={Notebook} alt="Notebook" />
-            <p> Lorem</p>
+            <p>Click the image to test the project</p>
           </a>
         </div>
         <div className="portfolio-project">
           <a>
-            <h3 className="project-head">ProductivityManager</h3>
+            <h2 className="project-head">ProductivityManager</h2>
             <img src={ProductivityManager} alt="ProductivityManager" />
-            <p> Lorem</p>
+            <p>Click the image to test the project</p>
           </a>
         </div>
         <div className="portfolio-project">
           <a>
-            <h3 className="project-head">Lyrics Searcher</h3>
+            <h2 className="project-head">Lyrics Searcher</h2>
             <img src={LyricsSearcher} alt="LyricsSearcher" />
-            <p> Lorem</p>
+            <p>Click the image to test the projec2</p>
           </a>
         </div>
       </div>
-
     </section>
   );
 }

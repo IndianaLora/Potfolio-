@@ -1,6 +1,7 @@
 import React from 'react'
 import "./home.css"
 import Info from './Info'
+import Arrow from './Arrow'
 function Header() {
   return (
     <section>
@@ -11,6 +12,7 @@ function Header() {
             <h1>Indiana Lora</h1>
             <h2 className='text-light'>Frontend Developer</h2>
             <Info />
+            <Arrow />
           </div>
         </div>
       </header>

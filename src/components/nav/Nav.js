@@ -7,10 +7,10 @@ function Nav() {
 
     <div className='nav'>
       <div className="wrapper">
-        <a href='#home'><FaHome /> Home</a>
-        <a href='#about'><FaIdCardAlt />About</a>
-        <a href='#projects'><FaMagic />Projects</a>
-        <a href='#contact'><FaMailBulk />Contact</a>
+        <a href='#home'><FaHome className='nav-icon'/> Home</a>
+        <a href='#about'><FaIdCardAlt className='nav-icon' />About</a>
+        <a href='#projects'><FaMagic className='nav-icon' />Projects</a>
+        <a href='#contact'><FaMailBulk className='nav-icon'/>Contact</a>
       </div>
     </div >
 

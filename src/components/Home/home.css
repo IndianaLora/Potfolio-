@@ -7,7 +7,6 @@ header {
   background-repeat: none;
   background-size: cover;
 }
-
 .header-container {
   text-align: center;
   height: 100%;
@@ -19,14 +18,90 @@ header {
   gap: 1.2rem;
   justify-content: left;
 }
+.arrows-container {
+  margin: 10rem;
+  position: relative;
+  float: left;
+}
+.arrows {
+  width: 200px;
+  height: 72px;
+  position: absolute;
+  margin-left: -30px;
+  bottom: 20px;
+}
+.arrows path {
+  stroke: #2994d1;
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+}
 
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
   }
+  .arrows-container {
+    display: none;
+  }
 }
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+    background-position: -70vh;
+    background-repeat: none;
+    background-size: auto;
+    color: #fff;
+  }
+  .header-container h2 {
+    color: var(--primary-color);
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #bc13fe,
+      0 0 82px #bc13fe, 0 0 92px #bc13fe, 0 0 102px #bc13fe, 0 0 151px #bc13fe;
   }
 }

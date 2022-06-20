@@ -8,20 +8,30 @@
   width: 70%;
   height: 70%;
   float: left;
-  margin: 20px;
   border: 1px solid black;
   border-radius: 20px;
 }
 .about-content p {
-  text-align: left;
+  display: flex;
+  flex: grow;
   padding: 10px;
+  max-width: 600px;
+  margin: 0 auto 50px;
   margin-top: 2%;
   font-size: 12pt;
-  text-align: justify;
+  text-align: left;
   line-height: 28px;
-  padding: 10px;
-  width: fit-content;
   word-break: break-all;
+}
+.palm {
+  width: 10%;
+  height: 10%;
+}
+.get-to-know-me {
+  background-image: var(--gradient);
+}
+.get-to-know-me h2 {
+  text-align: center;
 }
 .shine {
   width: 50px;

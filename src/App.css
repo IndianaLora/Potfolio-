@@ -20,6 +20,14 @@
   --container--large: 75%;
   --container-medium: 86%;
   --container-small: 90;
+  --gradient: linear-gradient(
+    to right top,
+    #e986a8,
+    #d36a96,
+    #bc4f86,
+    #a43277,
+    #8c0c69
+  );
 }
 html {
   scroll-behavior: smooth;
@@ -54,12 +62,8 @@ h5 {
 h1 {
   font-size: 2.5rem;
 }
-section {
-  margin-top: 2rem;
-}
 section > h2,
 section > h5,
-h3,
 h1 {
   text-align: center;
   color: var(--light);

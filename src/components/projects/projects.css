@@ -1,3 +1,6 @@
+.project-tittle {
+  text-align: center;
+}
 .projects {
   background-color: var(--primary-color-secondary);
 }
@@ -9,11 +12,15 @@
 .portfolio-project {
   padding: 1.3rem;
   border-radius: 2rem;
+  margin-bottom: 2rem;
   border: 1px solid transparent;
   cursor: pointer;
   background-color: var(--background-color-secondary);
 }
-
+.portfolio-project h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
 .portfoio-img {
   border-radius: 1.5rem;
   overflow: hidden;

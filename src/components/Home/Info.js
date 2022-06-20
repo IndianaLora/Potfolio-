@@ -8,8 +8,6 @@ const Info = () => {
         <div className='info'>
             <a href={CV} download className='btn' >Download my CV</a>
             <a href="#contact" className='btn btn-primary'>Contact me</a>
-           
-
         </div>
     )
 }
