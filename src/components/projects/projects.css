@@ -1,33 +1,50 @@
 .projects {
-  margin: 0 auto;
   background-color: var(--primary-color-secondary);
-  height: fit-content !important;
 }
-.projects-container {
-  height: fit-content;
+.portfolio-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  gap: 2.5rem;
 }
-.projects-container div {
-  width: 500px;
-  height: 300px;
-  margin-bottom: 5%;
+.portfolio-project {
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  cursor: pointer;
   background-color: var(--background-color-secondary);
 }
+
+.portfoio-img {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
 @media screen and (max-width: 1024px) {
-  .projects-container div {
-    width: 200px;
-    height: 100px;
-    grid-template-columns: repeat(1, 1fr);
+  .portfolio-container {
+    margin-bottom: 20%;
+    grid-template-columns: repeat(1fr, 1fr);
+    gap: 1.2rem;
     background-color: var(--background-color-secondary);
   }
 }
-@media screen and (max-width: 600px) {
-  .projects-container {
-    display: grid;
-    width: 200px;
-    height: 100px;
+@media screen and (max-width: 1024px) {
+  .portfolio-container {
     grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .project {
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .portfolio-container {
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-project {
+    margin-bottom: 5rem;
   }
 }
