@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "./footer.css"
 function Footer() {
     return (
-        <section>
-            <div>Footer</div>
+        <section className='footer'>
+            <div ><h2>Indiana Lora Ⓒ All rights reserved</h2></div>
         </section>
 
     )
