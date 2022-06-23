@@ -18,7 +18,7 @@ function Contact() {
     e.target.reset();
   }
   return (
-    <section id="contact">
+    <section id="contact" >
       <h2>Contact Me</h2>
       <div className='container contact-container'>
 

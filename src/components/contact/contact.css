@@ -1,9 +1,5 @@
-.container.contact-conatiner {
-  width: 58%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 30% 58%;
-  gap: 12%;
+.container.contact-container {
+  margin: 10px 1px 10px 10px auto;
 }
 .contact-options {
   max-width: 250px;
