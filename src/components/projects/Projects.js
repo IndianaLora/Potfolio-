@@ -8,7 +8,7 @@ function Projects() {
   //make sure its responsive
   return (
     <section className="projects" id="projects">
-      <h2>Projects</h2>
+      <h2 className="project-tittle">Projects</h2>
       <div className="container portfolio-container">
 
         <div className="portfolio-project">

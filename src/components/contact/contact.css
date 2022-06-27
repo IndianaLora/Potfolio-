@@ -1,11 +1,14 @@
 .container.contact-container {
-  margin: 10px 1px 10px 10px auto;
+  margin: 0 auto;
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
 }
 .contact-options {
-  max-width: 250px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 .contact-option {
   color: var(--background-color-secondary);
@@ -36,7 +39,7 @@ form {
 }
 input,
 textarea {
-  max-width: 500px;
+  width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
   border: 2px solid var(--background-color-secondary);
@@ -47,14 +50,15 @@ button {
 }
 /* Tablet */
 @media screen and (max-width: 1024px) {
-  .container.contact-conatiner {
-    grid-row: 1fr;
+  .container.contact-container {
+    grid-template-columns: 1fr;
     gap: 2rem;
   }
 }
 /* Mobile */
 @media screen and (max-width: 600px) {
-  .container.contact-conatiner {
+  .container.contact-container {
+    margin: 2rem;
     width: var(--container-small);
   }
 }

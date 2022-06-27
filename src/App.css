@@ -124,7 +124,7 @@ img {
 }
 
 /* Phones Media Query*/
-@media screen and(max-width:1024px) {
+@media screen and(max-width:600px) {
   .container {
     width: var(--container-small);
   }

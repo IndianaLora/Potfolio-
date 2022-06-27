@@ -94,9 +94,9 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
-    background-position: -70vh;
     background-repeat: none;
-    background-size: auto;
+    background-size: cover;
+    background-position: center;
     color: #fff;
   }
   .header-container h2 {

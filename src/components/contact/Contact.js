@@ -22,12 +22,7 @@ function Contact() {
       <h2>Contact Me</h2>
       <div className='container contact-container'>
 
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Type your full name' required />
-          <input type="email" name="email" placeholder="Type ypur email please" required />
-          <textarea name="message" rows="7" placeholder=" Type your message please" required></textarea>
-          <button type='submit' className='btn btn-primary'>Send the message</button>
-        </form>
+
         <div className='contact-options'>
           <div className='contact-option' >
             <HiOutlineMailOpen className='contact-icon' />
@@ -42,6 +37,12 @@ function Contact() {
             <a href='https://www.linkedin.com/in/indiana-lora-4b1265214/'>Send me a message</a>
           </div>
         </div>
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text" name='name' placeholder='Type your full name' required />
+          <input type="email" name="email" placeholder="Type ypur email please" required />
+          <textarea name="message" rows="7" placeholder=" Type your message please" required></textarea>
+          <button type='submit' className='btn btn-primary'>Send the message</button>
+        </form>
       </div>
     </section>
 
