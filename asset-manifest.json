@@ -1,22 +1,22 @@
 {
-  "files": {
-    "main.css": "/portfoliio/public/index.html/static/css/main.bd8fc9e0.css",
-    "main.js": "/portfoliio/public/index.html/static/js/main.432968b9.js",
-    "static/media/Notebook.png": "/portfoliio/public/index.html/static/media/Notebook.f3dcfde64f1a5b03262b.png",
-    "static/media/ResinPage.png": "/portfoliio/public/index.html/static/media/ResinPage.42f571b492c0d1bb6f82.png",
-    "static/media/LyricsSearcher.png": "/portfoliio/public/index.html/static/media/LyricsSearcher.9c576efd4f55f200b866.png",
-    "static/media/Indiana 2022 Resume.pdf": "/portfoliio/public/index.html/static/media/Indiana 2022 Resume.2c9d15dad781485648f1.pdf",
-    "static/media/programmer-bg.jpg": "/portfoliio/public/index.html/static/media/programmer-bg.1557e827cb68f1c0b643.jpg",
-    "static/media/ProductivityManager.png": "/portfoliio/public/index.html/static/media/ProductivityManager.f354508c3a4d772e330c.png",
-    "static/media/shine.gif": "/portfoliio/public/index.html/static/media/shine.fb6da0053c9338091d8b.gif",
-    "static/media/me.jfif": "/portfoliio/public/index.html/static/media/me.a8873eeb7fa0360ac9a5.jfif",
-    "static/media/plamTree.jfif": "/portfoliio/public/index.html/static/media/plamTree.143d646675be72978e6c.jfif",
-    "index.html": "/portfoliio/public/index.html/index.html",
-    "main.bd8fc9e0.css.map": "/portfoliio/public/index.html/static/css/main.bd8fc9e0.css.map",
-    "main.432968b9.js.map": "/portfoliio/public/index.html/static/js/main.432968b9.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.bd8fc9e0.css",
-    "static/js/main.432968b9.js"
-  ]
+  "main.css": "/portfoliio/static/css/main.e87dbe9d.chunk.css",
+  "main.js": "/portfoliio/static/js/main.d0fb5e8a.chunk.js",
+  "main.js.map": "/portfoliio/static/js/main.d0fb5e8a.chunk.js.map",
+  "static/js/1.f85eb0f1.chunk.js": "/portfoliio/static/js/1.f85eb0f1.chunk.js",
+  "static/js/1.f85eb0f1.chunk.js.map": "/portfoliio/static/js/1.f85eb0f1.chunk.js.map",
+  "runtime~main.js": "/portfoliio/static/js/runtime~main.2d4b2d5c.js",
+  "runtime~main.js.map": "/portfoliio/static/js/runtime~main.2d4b2d5c.js.map",
+  "static/media/home.css": "/portfoliio/static/media/programmer-bg.37627d03.jpg",
+  "static/media/Indiana 2022 Resume.pdf": "/portfoliio/static/media/Indiana 2022 Resume.925dbabd.pdf",
+  "static/media/me.jfif": "/portfoliio/static/media/me.2da23668.jfif",
+  "static/media/shine.gif": "/portfoliio/static/media/shine.e75142f7.gif",
+  "static/media/LyricsSearcher.png": "/portfoliio/static/media/LyricsSearcher.fa93836d.png",
+  "static/media/ProductivityManager.png": "/portfoliio/static/media/ProductivityManager.bb8837ab.png",
+  "static/media/Notebook.png": "/portfoliio/static/media/Notebook.2cc6e567.png",
+  "static/media/ResinPage.png": "/portfoliio/static/media/ResinPage.40ff19d9.png",
+  "static/media/plamTree.jfif": "/portfoliio/static/media/plamTree.be0e73ac.jfif",
+  "static/css/main.e87dbe9d.chunk.css.map": "/portfoliio/static/css/main.e87dbe9d.chunk.css.map",
+  "index.html": "/portfoliio/index.html",
+  "precache-manifest.0c9664a05bb107f3eb1fa09da6e7a4cc.js": "/portfoliio/precache-manifest.0c9664a05bb107f3eb1fa09da6e7a4cc.js",
+  "service-worker.js": "/portfoliio/service-worker.js"
 }
