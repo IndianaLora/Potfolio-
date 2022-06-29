@@ -3,7 +3,7 @@ import "./footer.css"
 function Footer() {
     return (
         <section className='footer'>
-            <div ><h2>Indiana Lora Ⓒ All rights reserved</h2></div>
+            <div ><h2>Indiana Lora Ⓒ All rigths reserved</h2></div>
         </section>
 
     )

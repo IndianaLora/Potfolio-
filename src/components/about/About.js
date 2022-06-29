@@ -19,12 +19,18 @@ function About() {
         </div>
         <div className="about-content">
           <p>
-            I'm Frontend Developer living in Dominican Republic
+            I'm Frontend Developer living in Dominican Republic ♥
           </p>
           <img src={Shine} alt="Shine gif" className="shine" />
           <p>
-            A creative mind , forever learner ,Frontend developer and User 
-            Interface Designer working with React, Figma and Adobe Creative Cloud.
+            A creative mind,
+            forever learner,
+            <br />
+            Frontend developer and
+            Interface Designer
+            <br />
+            <br />
+            Working constantly to improve my knowledge
           </p>
         </div>
       </div>

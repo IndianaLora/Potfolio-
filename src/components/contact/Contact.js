@@ -39,7 +39,7 @@ function Contact() {
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Type your full name' required />
-          <input type="email" name="email" placeholder="Type ypur email please" required />
+          <input type="email" name="email" placeholder="Type your email please" required />
           <textarea name="message" rows="7" placeholder=" Type your message please" required></textarea>
           <button type='submit' className='btn btn-primary'>Send the message</button>
         </form>

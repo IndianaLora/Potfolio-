@@ -1,7 +1,7 @@
 //rafce
 import React from 'react'
 import "./home.css"
-import CV from "../../assest/Indiana 2022 Resume.pdf"
+import CV from "../../assest/Indiana 2022 Resume (2).pdf"
 
 const Info = () => {
     return (
