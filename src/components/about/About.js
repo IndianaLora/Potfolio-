@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import Me from "../../assest/me.jfif";
-import Palm from "../../assest/plamTree.jfif"
 import Shine from "../../assest/shine.gif";
 function About() {
   return (
