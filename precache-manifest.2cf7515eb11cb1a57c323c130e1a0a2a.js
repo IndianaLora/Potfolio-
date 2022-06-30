@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d0fb5e8adea9ee3313f3",
-    "url": "/portfoliio/static/css/main.e87dbe9d.chunk.css"
+    "revision": "86a8e2e9d4a5898e420f",
+    "url": "/portfoliio/static/css/main.95fcb3ae.chunk.css"
   },
   {
-    "revision": "d0fb5e8adea9ee3313f3",
-    "url": "/portfoliio/static/js/main.d0fb5e8a.chunk.js"
+    "revision": "86a8e2e9d4a5898e420f",
+    "url": "/portfoliio/static/js/main.86a8e2e9.chunk.js"
   },
   {
     "revision": "f85eb0f1622ac54e5aa6",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfoliio/static/media/programmer-bg.37627d03.jpg"
   },
   {
-    "revision": "925dbabd8dcd9939038ce460f5b57c97",
-    "url": "/portfoliio/static/media/Indiana 2022 Resume.925dbabd.pdf"
+    "revision": "8d38e75336fa2dc572d1a6b27fdabbde",
+    "url": "/portfoliio/static/media/Indiana 2022 Resume (2).8d38e753.pdf"
   },
   {
     "revision": "2da23668ef58dc423eb885dace922723",
@@ -48,11 +48,7 @@ self.__precacheManifest = [
     "url": "/portfoliio/static/media/ResinPage.40ff19d9.png"
   },
   {
-    "revision": "be0e73ac18e3ddd9c1223867189aa8b0",
-    "url": "/portfoliio/static/media/plamTree.be0e73ac.jfif"
-  },
-  {
-    "revision": "c2abe925b62ec3de277c80f8b975188b",
+    "revision": "3a2c98586d4e05117b87ad6c821eb384",
     "url": "/portfoliio/index.html"
   }
 ];
